@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Page</title>
+    <link rel="stylesheet" href="testimoni-styles.css">
+</head>
+<body>
+    <header>
+
+        <h1>Testimonial Page</h1>
+        <button id="theme-toggle">Switch to Dark Mode</button>
+        <h1></h1>
+    </header>
+    <form id="testimonial-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <textarea id="message" placeholder="Your Testimonial" required></textarea>
+        <button type="submit">Add Testimonial</button>
+    </form>
+    <ul id="testimonial-list"></ul>
+
+    <!-- Edit Testimonial Modal -->
+    <div id="edit-modal" style="display:none;">
+        <input type="text" id="edit-name" placeholder="Your Name" required>
+        <textarea id="edit-message" placeholder="Your Testimonial" required></textarea>
+        <button id="update-testimonial">Update Testimonial</button>
+        <button id="cancel-edit">Cancel</button>
+    </div>
+
+    <script src="testimoni-scripts.js"></script>
+</body>
+</html>

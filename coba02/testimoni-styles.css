@@ -1,0 +1,83 @@
+/* Light Mode (default) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+header{
+    text-align: center;
+
+}
+
+theme-toggle{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+#testimonial-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#edit-modal {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#edit-modal input, #edit-modal textarea {
+    margin-bottom: 10px;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode #edit-modal {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+body.dark-mode #testimonial-list li {
+    background-color: #2c2c2c;
+    border-color: #444;
+}
+
+body.dark-mode input, body.dark-mode textarea {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+body.dark-mode button {
+    background-color: #444;
+    color: #e0e0e0;
+    border: 1px solid #555;
+}
+
+body.dark-mode button:hover {
+    background-color: #555;
+}
