@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Testimonial Page</h1>
+    <button id="theme-toggle">Switch to Dark Mode</button>
+    <form id="testimonial-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <textarea id="message" placeholder="Your Testimonial" required></textarea>
+        <input type="file" id="image-upload" accept="image/*">
+        <div id="image-preview"></div>
+        <button type="submit">Add Testimonial</button>
+    </form>
+    <div id="testimonial-list"></div>
+
+    <!-- Edit Testimonial Modal -->
+    <div id="edit-modal" style="display:none;">
+        <input type="text" id="edit-name" placeholder="Your Name" required>
+        <textarea id="edit-message" placeholder="Your Testimonial" required></textarea>
+        <input type="file" id="edit-image-upload" accept="image/*">
+        <div id="edit-image-preview"></div>
+        <button id="update-testimonial">Update Testimonial</button>
+        <button id="cancel-edit">Cancel</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
