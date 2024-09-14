@@ -1,10 +1,18 @@
-<<<<<<< HEAD
-# CONTENT
+hi, ini hanya percobaan
+
+>## My Testing Pages
+
+
+***HTML CSS***
+- [html-01 pokemon page](https://wijaya2020.github.io/html01/)
 
 ***HTML CSS JS***
-- [coba DOM 01] (https://wijaya2020.github.io/coba01/)
-- [coba DOM 02] (https://wijaya2020.github.io/coba01/)
-- [coba DOM 03] (https://wijaya2020.github.io/coba01/)
-=======
-hi, ini hanya percobaan
->>>>>>> 4de78d2da1ff091696c55f9a4bc6f43810882fac
+
+***HTML CSS JS DOM***
+
+- [DOM-01 testimonial page](https://wijaya2020.github.io/dom01/)
+- [DOM-02 testimonial page](https://wijaya2020.github.io/dom02/)
+- [DOM-03 testimonial page](https://wijaya2020.github.io/dom02/)
+
+
+

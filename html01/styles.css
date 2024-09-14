@@ -1,0 +1,107 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    background-color: wheat;
+    
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aquamarine;
+    margin: 0 ;
+}
+
+#navbar {
+    /* mengubah ukuran font, defaultnya 16px (1em) 
+    ** 1.5em =24px */
+    font-size: 1.5em;
+
+    text-align: center;
+    background-color: white;
+    padding: 0.5em;
+}
+
+
+
+#navbar img {
+    /* mengubah lebar img pokeball */
+    width: 20px;
+    
+}
+
+#navbar ul {
+    /* menghilangkan bulet list */
+    list-style-type: none;
+    color: black;
+
+    /* membuat text ke tengah */
+    /* text-align: center; */
+
+    /* membuat isi navbar (termasuk image) dlm satu baris */
+    display: inline;
+}
+
+#navbar ul li {
+    /* membuat text nav bar menjadi horizontal */
+    display: inline;
+    margin-right: 1em;
+}
+
+#navbar ul li a {
+    /* menghilangkan garis bawah link referensi */
+    text-decoration: none
+}
+
+#navbar ul li a:hover {
+    /* mengubah warna hover */
+    color: orange;
+}
+#content {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#content .card {
+    width: 200px;
+    display: inline-block;
+    background-color: beige;
+    border: 1px solid black;
+    /* membuat ujung border menjadi agak oval */
+    border-radius: 1em;
+    padding: 0.5em;
+    text-align: center;
+    /* membuat margin atas bawah:0 kiri kanan 5px*/
+    margin: 0 5px
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.5em;
+    padding: 0.5em 0;
+
+}
+
+.register {
+    background-color: white;
+    border-radius: 1em;
+    width: fit-content;
+    padding: 2.5em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+.logo {
+    width:fit-content;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
