@@ -1,5 +1,3 @@
-hi, ini hanya percobaan
-
 >## My Testing Pages
 
 
