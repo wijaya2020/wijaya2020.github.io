@@ -4,7 +4,7 @@ hi, ini hanya percobaan
 
 
 ***HTML CSS***
-- [html-01 pokemon page](https://wijaya2020.github.io/html01/)
+- [html-01 pokemon page](https://wijaya2020.github.io/html01/index.html)
 
 ***HTML CSS JS***
 
